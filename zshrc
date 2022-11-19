@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search pyenv ssh-agent)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -104,4 +104,5 @@ export BROWSER='"/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe
 export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
 export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
 export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
